@@ -10,11 +10,9 @@
 
 - Base64:
 
-  [https://raw.githubusercontent.com/alex-mikan88/chrome_extractor/main/outputs/base64.txt]
-  (https://raw.githubusercontent.com/alex-mikan88/chrome_extractor/main/outputs/base64.txt)
+  [https://raw.githubusercontent.com/alex-mikan88/chrome_extractor/main/outputs/base64.txt](https://raw.githubusercontent.com/alex-mikan88/chrome_extractor/main/outputs/base64.txt)
 
 - Proxy urls:
 
-  [https://raw.githubusercontent.com/alex-mikan88/chromego_pure/main/outputs/proxy_urls.txt]
-  (https://raw.githubusercontent.com/alex-mikan88/chromego_pure/main/outputs/proxy_urls.txt)
+  [https://raw.githubusercontent.com/alex-mikan88/chromego_pure/main/outputs/proxy_urls.txt](https://raw.githubusercontent.com/alex-mikan88/chromego_pure/main/outputs/proxy_urls.txt)
   
