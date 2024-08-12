@@ -5,11 +5,13 @@ on:
         branches:
             - main
     schedule:
-        - cron: "0 0,12 * * *"
+        - cron: "0 6,12,18 * * *"
     workflow_dispatch:
 jobs:
     Extract:
         runs-on: ubuntu-latest
+        permissions:
+          contents: write
 
         steps:
             - name: Checkout repository
