@@ -38,41 +38,6 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇺🇸 US-Hysteria | 0-0
-  type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇺🇸 US-Hysteria | 1-0
-  type: hysteria
-  server: 166.1.221.169
-  port: 11223
-  ports: 11223
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇺🇸 US-Hysteria2 | 0-0
-  type: hysteria2
-  server: 207.90.239.157
-  port: 15669
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🏳 Unknown-vmess | 0-0
   type: vmess
   server: 104.19.32.33
@@ -160,9 +125,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-Hysteria | 0-0
-  - 🇺🇸 US-Hysteria | 1-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇺🇸 US-vmess | 2-0
@@ -173,9 +135,6 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   proxies:
-  - 🇺🇸 US-Hysteria | 0-0
-  - 🇺🇸 US-Hysteria | 1-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇺🇸 US-vmess | 2-0
@@ -186,9 +145,6 @@ proxy-groups:
   - ♻️ 自动选择
   - ⚖ 负载均衡
   - ☁ WARP
-  - 🇺🇸 US-Hysteria | 0-0
-  - 🇺🇸 US-Hysteria | 1-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇺🇸 US-vmess | 2-0
@@ -198,9 +154,6 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - ⚖ 负载均衡
-  - 🇺🇸 US-Hysteria | 0-0
-  - 🇺🇸 US-Hysteria | 1-0
-  - 🇺🇸 US-Hysteria2 | 0-0
   - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🇺🇸 US-vmess | 2-0
